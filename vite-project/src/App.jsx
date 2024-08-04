@@ -1,17 +1,14 @@
 import { useState } from "react";
 
 import "./App.css";
-import Pet from "./Pet.jsx";
-import SearchParams from "../SearchParams.jsx";
+import SearchParams from "./SearchParams";
+
+
 
 const App = () => {
   return (
     <div>
       <h1>Adopt Me!</h1>
-      {/* <Pet name="Luna" animal="dog" breed="Havanese" />
-      <Pet name="Pepper" animal="Bird" breed="Hava" />
-      <Pet name="Dolink" animal="cat" breed="Mixed" /> */}
-
       <SearchParams/>
     </div>
   );
